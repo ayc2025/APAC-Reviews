@@ -2,16 +2,12 @@
   "task_id": "44",
   "instruction": "I’m writing a short cover letter and I need it to look professional and consistent. Can you open an existing document \"Cover-letter.odt\" from Downloads, ensure that the address block is single-spaced, the body paragraphs other than address and details are having first-line indent with \"0.50\", and there’s a clean blank line between major sections like name and salutation, then save it as \"Cover_Letter_Paragraph_Format.odt\" in Documents?",
   "step_by_step_instructions": "First, open the cover_letter.odt document in LibreOffice Writer, then apply single line spacing (1.0) to the address block at the top, then set the body paragraphs to use first-line indentation and proper spacing, then add spacing between sections to improve readability, and finally save the document with consistent professional formatting.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Word Processing (LibreOffice Writer) > Paragraph Formatting > Set line spacing",
-      "Word Processing (LibreOffice Writer) > Paragraph Formatting > Alignment and tab stops"
-    ],
-    "custom_nodes": [
-      "Word Processing (LibreOffice Writer) > Paragraph Formatting > Apply first-line indentation to body paragraphs",
-      "Word Processing (LibreOffice Writer) > Paragraph Formatting > Add spacing between document sections"
-    ]
-  },
+  "knowledge_points": [
+    "Line spacing",
+    "Alignment",
+    "Indentation",
+    "Spacing"
+  ],
   "domain": "LibreOffice Writer",
   "subdomain": "Paragraph Formatting",
   "traj": [

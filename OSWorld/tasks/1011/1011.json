@@ -2,15 +2,11 @@
   "task_id": "1011",
   "instruction": "I need to get ready for tax season. Create a folder ~/Finance/TaxYear_2024 with subfolders Receipts, Income_Statements, and Deductions. I'd like a script ~/Scripts/compress_receipts.sh that zips the Receipts folder into a single archive, but don't run it yet. I also want to setup the desktop background named nature.jpg that is present in /home/$USER/Pictures/nature.jpg please do so and perform a sudo update and install gnumeric. The Ubuntu OS password is 'password'.",
   "step_by_step_instructions": "First, open Terminal and create the directory structure ~/Finance/TaxYear_2024 with subfolders Receipts, Income_Statements, and Deductions using 'mkdir -p', then create a bash script file compress_receipts.sh to zip the Receipts folder, then make the script executable with chmod, then change the desktop background to nature.jpg using gsettings, and finally update packages with 'sudo apt update' and install gnumeric.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Operating System & Terminal (Ubuntu) > File & Directory Operations > Permissions, renaming, copying, restoring files"
-    ],
-    "custom_nodes": [
-      "Operating System & Terminal (Ubuntu) > File & Directory Operations > Create nested directory hierarchy",
-      "Operating System & Terminal (Ubuntu) > File & Directory Operations > Organize financial documents"
-    ]
-  },
+  "knowledge_points": [
+    "File operations",
+    "Directory structure",
+    "File organization"
+  ],
   "traj": [
     {
       "index": 0,

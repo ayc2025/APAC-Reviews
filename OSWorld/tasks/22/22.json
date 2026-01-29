@@ -2,14 +2,10 @@
   "task_id": "22",
   "instruction": "I have a small contact list I want to share with someone who only accepts CSV files. First open the file \"Data.ods\" from Documents, then export it as a CSV using UTF-8 and a semicolon delimiter and save with the name \"Contract_list.csv\" in Documents, and re-import the CSV after the current sheet and trimspaces to verify the columns and special characters (like “José”) came through correctly, and finally export the sheet as .pdf and ensure that Page layout is set to \"Single page\" and save it as \"Contract.pdf\" in Documents.",
   "step_by_step_instructions": "First, open the Contacts.ods spreadsheet file in LibreOffice Calc, then select the 'Personal' sheet containing contact information, then use File > Save As and choose CSV (Comma-separated values) format, name it contacts_export.csv, and save it to the Desktop.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Spreadsheets (LibreOffice Calc) > Import/Export > Export CSV"
-    ],
-    "custom_nodes": [
-      "Spreadsheets (LibreOffice Calc) > Import/Export > Task-specific workflow combining multiple operations"
-    ]
-  },
+  "knowledge_points": [
+    "CSV export",
+    "Workflow"
+  ],
   "domain": "LibreOffice Calc",
   "subdomain": "Import/Export",
   "traj": [

@@ -2,14 +2,10 @@
   "task_id": "58",
   "instruction": "I’m trying to get this Ubuntu 22.04 machine ready for development, but I want to do it cleanly. Can you install Git, curl, and build tools, then add the official NodeSource repo for Node.js 22, install Node.js, and finally verify the versions and save a quick “what I installed” note in my Documents folder?",
   "step_by_step_instructions": "First, open Terminal and run 'sudo apt update' to refresh package lists, then add the NodeSource repository for Node.js, then install required packages including git, curl, and build-essential, then install Node.js from the added repository, and finally verify the installations by checking version numbers with 'node --version' and 'npm --version'.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Operating System & Terminal (Ubuntu) > Package Management > Install applications"
-    ],
-    "custom_nodes": [
-      "Operating System & Terminal (Ubuntu) > Package Management > Task-specific workflow combining multiple operations"
-    ]
-  },
+  "knowledge_points": [
+    "Package installation",
+    "Workflow"
+  ],
   "domain": "Ubuntu",
   "subdomain": "Package Management",
   "traj": [

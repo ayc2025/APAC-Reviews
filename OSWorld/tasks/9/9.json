@@ -2,15 +2,11 @@
   "task_id": "9",
   "instruction": "I share this laptop with family and want Chrome to open to a predictable set of pages every time I start it. Can you set Chrome so it opens a specific group of sites on startup (Gmail, Google Calendar, and Ubuntu’s homepage), and also set the Home button to go to Wikipedia? Please verify it works by fully closing and reopening Chrome and checking the tabs and Home button behavior.",
   "step_by_step_instructions": "First, open Chrome Settings and navigate to the 'On startup' section, then select 'Open a specific page or set of pages' and add email.google.com, calendar.google.com, and drive.google.com, then set the home button to show google.com, and finally restart Chrome to verify all three pages open automatically on startup.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Browser Operations (Chrome) > Startup & Homepage > Fix Chrome opening a specific website on startup"
-    ],
-    "custom_nodes": [
-      "Browser Operations (Chrome) > Startup & Homepage > Configure multiple startup pages simultaneously",
-      "Browser Operations (Chrome) > Startup & Homepage > Set and verify home button URL"
-    ]
-  },
+  "knowledge_points": [
+    "Startup pages",
+    "Startup configuration",
+    "Homepage"
+  ],
   "domain": "Chrome",
   "subdomain": "Startup & Homepage",
   "traj": [

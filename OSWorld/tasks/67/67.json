@@ -2,14 +2,10 @@
   "task_id": "67",
   "instruction": "I filmed a short clip on my phone and it’s sideways when I share it. Can you help me use VLC to rotate the video 90° and export a new MP4 that plays upright, saving it into a new folder in my Videos directory and confirming the new file opens correctly?",
   "step_by_step_instructions": "First, open the sideways video file in VLC Media Player, then go to Media > Convert/Save, then select the video file and click Convert, then in the conversion settings choose the desired output format and enable video rotation (rotate by 90 or 270 degrees to correct orientation), then specify the output location, start the conversion, and finally verify the rotated video plays correctly.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Media Player (VLC) > Transcoding & Export > Extract audio, rotate videos, save outputs"
-    ],
-    "custom_nodes": [
-      "Media Player (VLC) > Transcoding & Export > Task-specific workflow combining multiple operations"
-    ]
-  },
+  "knowledge_points": [
+    "Video transcoding",
+    "Workflow"
+  ],
   "domain": "VLC",
   "subdomain": "Transcoding & Export",
   "traj": [

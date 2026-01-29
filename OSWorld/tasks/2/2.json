@@ -2,16 +2,12 @@
   "task_id": "2",
   "instruction": "I’m cleaning up my browser and want to stop losing useful links in random places. Can you use Chrome’s Bookmark Manager to create a “Recipes” folder with subfolders for “Vegetarian” and “Desserts”, move a few new bookmarks into the right subfolder, and delete one accidental duplicate bookmark? Please finish by verifying the folders show up correctly on the bookmarks bar menu.",
   "step_by_step_instructions": "First, open Chrome's Bookmark Manager and create a 'Recipes' folder in the bookmarks bar, then create 'Vegetarian' and 'Desserts' subfolders inside it, then bookmark allrecipes.com and bbcgoodfood.com/vegetarian into the Vegetarian folder, then bookmark bbcgoodfood.com/dessert and wikipedia.org/wiki/Dessert into the Desserts folder, then delete the duplicate Dessert bookmark, and finally verify the folder structure in the bookmarks bar menu.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Save current page to bookmarks bar",
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Create a new folder in bookmarks bar, e.g., \"Favorites\""
-    ],
-    "custom_nodes": [
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Organize bookmarks into folder structure",
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Create nested directory hierarchy"
-    ]
-  },
+  "knowledge_points": [
+    "Bookmarks",
+    "Bookmark folders",
+    "Bookmark organization",
+    "Directory structure"
+  ],
   "domain": "Chrome",
   "subdomain": "Bookmarks & Shortcuts",
   "traj": [

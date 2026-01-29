@@ -2,15 +2,11 @@
   "task_id": "1016",
   "instruction": "Set up a new IMAP email account with the following credentials: username is john.williams@consulting.biz and keep the password field as blank. Open your email client, add a new account, select manual setup, choose IMAP as the account type, configure the incoming server as mail.consulting.biz on port 993 with SSL/TLS enabled, set the outgoing server as smtp.consulting.biz on port 465 with SSL/TLS and authentication enabled. Create a Junks folder under Local Folders. In the newly added mail account, move new junk messages to the Junks folder and enable automatic deletion after 12 days.",
   "step_by_step_instructions": "First, open Thunderbird and navigate to Account Settings, then add a new IMAP email account for john.williams@consulting.biz with display name 'John Williams', then configure the incoming server as mail.consulting.biz (port 993, SSL/TLS) and outgoing as smtp.consulting.biz (port 465, SSL/TLS), then create a new folder named 'Junks' under Local Folders, and finally configure the account to automatically move junk mail to this folder and delete after 12 days.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Email Client (Thunderbird) > Account Management > Add, configure, and remove email accounts"
-    ],
-    "custom_nodes": [
-      "Email Client (Thunderbird) > Account Management > Configure IMAP email account with server settings",
-      "Email Client (Thunderbird) > Account Management > Set up automatic folder subscriptions"
-    ]
-  },
+  "knowledge_points": [
+    "Email accounts",
+    "Email configuration",
+    "Directory structure"
+  ],
   "traj": [
     {
       "index": 0,

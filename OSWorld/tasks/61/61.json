@@ -2,15 +2,10 @@
   "task_id": "61",
   "instruction": "I’m going to be using the terminal a lot for log reviews, and I want it to be easier on my eyes and consistent every time I open it. Can you help me create a custom GNOME Terminal profile called “LogReview” with a dark color scheme, a larger monospace font, a fixed window size, and a visible scrollbar, then set it as the default profile and confirm this for me",
   "step_by_step_instructions": "First, open GNOME Terminal Preferences, then create a new profile named 'LogReview', then configure it with a dark color scheme for reduced eye strain, then increase the font size to a larger monospace font, then set a fixed window size and enable the scrollbar, then set it as the default profile, and finally open a new terminal to verify the configuration persists.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Operating System & Terminal (Ubuntu) > Terminal Configuration > Set terminal size persistently"
-    ],
-    "custom_nodes": [
-      "Operating System & Terminal (Ubuntu) > Terminal Configuration > Create custom terminal profile with appearance settings",
-      "Operating System & Terminal (Ubuntu) > Terminal Configuration > Set custom profile as default"
-    ]
-  },
+  "knowledge_points": [
+    "Terminal settings",
+    "Terminal customization"
+  ],
   "domain": "Ubuntu",
   "subdomain": "Terminal Configuration",
   "traj": [

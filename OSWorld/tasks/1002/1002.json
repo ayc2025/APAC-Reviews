@@ -2,17 +2,12 @@
   "task_id": "1002",
   "instruction": "I want to tidy up my reading resources in Chrome. Can you help me bookmark already opened tabs like “Daily Articles,” “Book Summaries,” and “Reading Tips Blog” into a folder called “Reading Corner” appropriately? I’d also like to turn on Reading Mode for the article “The Art of Balance Summary” so it’s easier on the eyes. Lastly, turn off all the extensions except the grammarly extension and dark mode.",
   "step_by_step_instructions": "First, open Chrome's Bookmark Manager and create a 'Reading Corner' folder, then bookmark the currently open tabs including 'Daily Articles', 'Book Summaries', and 'Reading Tips Blog' into this folder, then navigate to 'The Art of Balance Summary' article and activate Reading Mode by clicking the reader icon in the address bar, and finally manage extensions by disabling all except Grammarly.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Save current page to bookmarks bar",
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Create a new folder in bookmarks bar, e.g., \"Favorites\""
-    ],
-    "custom_nodes": [
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Organize bookmarks into folder structure",
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Manage reading-related bookmarks",
-      "Browser Operations (Chrome) > Bookmarks & Shortcuts > Activate reading mode for better readability"
-    ]
-  },
+  "knowledge_points": [
+    "Bookmarks",
+    "Bookmark folders",
+    "Bookmark organization",
+    "Reading mode"
+  ],
   "traj": [
     {
       "index": 0,

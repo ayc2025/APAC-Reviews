@@ -2,15 +2,10 @@
   "task_id": "13542",
   "instruction": "I'm preparing Chrome for confidential work. I need help creating a tab group named \"Confidential Work\" and placing tabs like \"Internal Document Viewer,\" \"Team Dashboard,\" and \"Report Draft\" in it, while closing all unrelated tabs. I also want to open a sensitive page such as \"report.employeeconfidential.com\" in Incognito Mode. For cleanup, I need to delete all history items. In the Download Manager, I want to remove file name starting with \"business-operations\". Lastly, please guide me in reviewing saved passwords to verify no confidential credentials stored.",
   "step_by_step_instructions": "First, select the first three open tabs and right-click to create a new tab group named 'Confidential Work', then close all other tabs not in this group, then open a new Incognito window and navigate to report.employeeconfidential.com, then return to the main window and open History to delete all browsing history, then open Downloads and remove the file starting with 'business-operations', and finally go to Settings to review and manage any saved passwords.",
-  "knowledge_points": {
-    "osworld_overlap": [
-      "Browser Operations (Chrome) > Tabs & Windows > Restore recently closed tabs"
-    ],
-    "custom_nodes": [
-      "Browser Operations (Chrome) > Tabs & Windows > Create and name tab groups",
-      "Browser Operations (Chrome) > Tabs & Windows > Organize confidential work into dedicated tab group"
-    ]
-  },
+  "knowledge_points": [
+    "Tabs",
+    "Tab groups"
+  ],
   "traj": [
     {
       "index": 0,
