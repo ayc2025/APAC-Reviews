@@ -1,0 +1,168 @@
+{
+  "task_id": "1011",
+  "instruction": "I need to get ready for tax season. Create a folder ~/Finance/TaxYear_2024 with subfolders Receipts, Income_Statements, and Deductions. I'd like a script ~/Scripts/compress_receipts.sh that zips the Receipts folder into a single archive, but don't run it yet. I also want to setup the desktop background named nature.jpg that is present in /home/$USER/Pictures/nature.jpg please do so and perform a sudo update and install gnumeric. The Ubuntu OS password is 'password'.",
+  "step_by_step_instructions": "First, open Terminal and create the directory structure ~/Finance/TaxYear_2024 with subfolders Receipts, Income_Statements, and Deductions using 'mkdir -p', then create a bash script file compress_receipts.sh to zip the Receipts folder, then make the script executable with chmod, then change the desktop background to nature.jpg using gsettings, and finally update packages with 'sudo apt update' and install gnumeric.",
+  "knowledge_points": {
+    "osworld_overlap": [
+      "Operating System & Terminal (Ubuntu) > File & Directory Operations > Permissions, renaming, copying, restoring files"
+    ],
+    "custom_nodes": [
+      "Operating System & Terminal (Ubuntu) > File & Directory Operations > Create nested directory hierarchy",
+      "Operating System & Terminal (Ubuntu) > File & Directory Operations > Organize financial documents"
+    ]
+  },
+  "traj": [
+    {
+      "index": 0,
+      "code": "pyautogui.rightClick(621, 219",
+      "screenshot": "screenshots/step_0000.png"
+    },
+    {
+      "index": 1,
+      "code": "pyautogui.click(715, 450",
+      "screenshot": "screenshots/step_0001.png"
+    },
+    {
+      "index": 2,
+      "code": "pyautogui.write(\"mkdir -p ~/Finance/TaxYear_2024/{Receipts, Income_Statements,Deductions}\")",
+      "screenshot": "screenshots/step_0002.png"
+    },
+    {
+      "index": 3,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0003.png"
+    },
+    {
+      "index": 4,
+      "code": "pyautogui.write(\"touch ~/Scripts/compress_receipts.sh\")",
+      "screenshot": "screenshots/step_0004.png"
+    },
+    {
+      "index": 5,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0005.png"
+    },
+    {
+      "index": 6,
+      "code": "pyautogui.write(\"nano ~/Scripts/compress_receipts.sh\")",
+      "screenshot": "screenshots/step_0006.png"
+    },
+    {
+      "index": 7,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0007.png"
+    },
+    {
+      "index": 8,
+      "code": "pyautogui.write(\"#!/bin/bash\")",
+      "screenshot": "screenshots/step_0008.png"
+    },
+    {
+      "index": 9,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0009.png"
+    },
+    {
+      "index": 10,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0010.png"
+    },
+    {
+      "index": 11,
+      "code": "pyautogui.write(\"zip -r ~//Finance/TaxYear_2024/Receipts.zip ~/Finance/TaxYear_2024/Receipts\")",
+      "screenshot": "screenshots/step_0011.png"
+    },
+    {
+      "index": 12,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0012.png"
+    },
+    {
+      "index": 13,
+      "code": "pyautogui.write(\"echo \\\"Receipts compressed successfully!\\\"\")",
+      "screenshot": "screenshots/step_0013.png"
+    },
+    {
+      "index": 14,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0014.png"
+    },
+    {
+      "index": 15,
+      "code": "pyautogui.hotkey('ctrl', 'o')",
+      "screenshot": "screenshots/step_0015.png"
+    },
+    {
+      "index": 16,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0016.png"
+    },
+    {
+      "index": 17,
+      "code": "pyautogui.hotkey('ctrl', 'x')",
+      "screenshot": "screenshots/step_0017.png"
+    },
+    {
+      "index": 18,
+      "code": "pyautogui.write(\"chmod +x ~/Scripts/compress_receipts.sh\")",
+      "screenshot": "screenshots/step_0018.png"
+    },
+    {
+      "index": 19,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0019.png"
+    },
+    {
+      "index": 20,
+      "code": "pyautogui.write(\"gsettings set org.gnome.desktop.background picture-uri \\\"file:///home/$USER/Pictures/nature.jpg\\\"\")",
+      "screenshot": "screenshots/step_0020.png"
+    },
+    {
+      "index": 21,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0021.png"
+    },
+    {
+      "index": 22,
+      "code": "pyautogui.write(\"sudo apt update\")",
+      "screenshot": "screenshots/step_0022.png"
+    },
+    {
+      "index": 23,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0023.png"
+    },
+    {
+      "index": 24,
+      "code": "pyautogui.write(\"password\")",
+      "screenshot": "screenshots/step_0024.png"
+    },
+    {
+      "index": 25,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0025.png"
+    },
+    {
+      "index": 26,
+      "code": "pyautogui.write(\"sudo apt install gnumeric -y\")",
+      "screenshot": "screenshots/step_0026.png"
+    },
+    {
+      "index": 27,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0027.png"
+    },
+    {
+      "index": 28,
+      "code": "pyautogui.write(\"exit\")",
+      "screenshot": "screenshots/step_0028.png"
+    },
+    {
+      "index": 29,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0029.png"
+    }
+  ],
+  "domain": "Ubuntu",
+  "subdomain": "File & Directory Operations"
+}

@@ -1,0 +1,147 @@
+{
+  "task_id": "73",
+  "instruction": "I'm trying to improve readability of a large codebase that I'll be working on.I want words to wrap after 120 characters, tab size of 2 spaces for consistency, white space characters to be visible, and rulers at columns 80 and 120",
+  "step_by_step_instructions": "First, open VS Code by clicking its icon in the application launcher, then wait for VS Code to fully load, next click on the File menu in the top menu bar, then select 'Preferences' from the dropdown, next click on 'Settings' to open the Settings editor, then in the search bar at the top of Settings, type 'word wrap', next find the 'Editor: Word Wrap' setting in the results, then click the dropdown and select 'on' to enable word wrap, next clear the search bar and type 'word wrap column', then find 'Editor: Word Wrap Column' setting, next click on the input field and change the value to 120, then clear the search bar and type 'tab size', next find 'Editor: Tab Size' in the results, then click on the input field and change the value from 4 to 2, next clear the search bar and type 'render whitespace', then find 'Editor: Render Whitespace' setting, next click the dropdown and select 'all' to show all whitespace characters, then clear the search bar and type 'rulers', next find 'Editor: Rulers' setting in the results, then click on 'Edit in settings.json' link, next in the settings.json file that opens, find or add the 'editor.rulers' line, then modify it to read '\"editor.rulers\": [80, 120]', next press Ctrl+S to save the settings.json file, then close the settings.json tab by clicking the X, next go back to the Settings UI tab, then clear the search bar and type 'detect indentation', next find 'Editor: Detect Indentation' setting, then uncheck the box to disable auto-detection so your tab size setting is always used, next clear the search bar and type 'insert spaces', then find 'Editor: Insert Spaces' setting, next ensure the checkbox is checked to use spaces instead of tabs, then click File menu, next click 'New File' to create a test file, then type some sample code with long lines to verify word wrap is working, next observe that rulers appear at columns 80 and 120, then verify whitespace characters are visible, finally close the test file without saving to complete the configuration.",
+  "knowledge_points": {
+    "osworld_overlap": [
+      "Code Editor (VS Code) > Settings > Word wrap, auto-save, language, debugging, startup, file filters, diagnostics"
+    ],
+    "custom_nodes": [
+      "Code Editor (VS Code) > Settings > Task-specific workflow combining multiple operations"
+    ]
+  },
+  "domain": "VS Code",
+  "subdomain": "Settings",
+  "traj": [
+    {
+      "index": 0,
+      "code": "pyautogui.click(1088, 1020)",
+      "screenshot": "screenshots/step_0000.png"
+    },
+    {
+      "index": 1,
+      "code": "pyautogui.press('pagedown')",
+      "screenshot": "screenshots/step_0001.png"
+    },
+    {
+      "index": 2,
+      "code": "pyautogui.click(1256, 416)",
+      "screenshot": "screenshots/step_0002.png"
+    },
+    {
+      "index": 3,
+      "code": "pyautogui.click(415, 153)",
+      "screenshot": "screenshots/step_0003.png"
+    },
+    {
+      "index": 4,
+      "code": "pyautogui.click(515, 653)",
+      "screenshot": "screenshots/step_0004.png"
+    },
+    {
+      "index": 5,
+      "code": "pyautogui.click(781, 681)",
+      "screenshot": "screenshots/step_0005.png"
+    },
+    {
+      "index": 6,
+      "code": "pyautogui.write(\"wrap\")",
+      "screenshot": "screenshots/step_0006.png"
+    },
+    {
+      "index": 7,
+      "code": "pyautogui.click(790, 382)",
+      "screenshot": "screenshots/step_0007.png"
+    },
+    {
+      "index": 8,
+      "code": "pyautogui.click(756, 434)",
+      "screenshot": "screenshots/step_0008.png"
+    },
+    {
+      "index": 9,
+      "code": "pyautogui.doubleClick(662, 489)",
+      "screenshot": "screenshots/step_0009.png"
+    },
+    {
+      "index": 10,
+      "code": "pyautogui.write(\"120\")",
+      "screenshot": "screenshots/step_0010.png"
+    },
+    {
+      "index": 11,
+      "code": "pyautogui.doubleClick(457, 229)",
+      "screenshot": "screenshots/step_0011.png"
+    },
+    {
+      "index": 12,
+      "code": "pyautogui.write(\"tab size\")",
+      "screenshot": "screenshots/step_0012.png"
+    },
+    {
+      "index": 13,
+      "code": "pyautogui.doubleClick(654, 380)",
+      "screenshot": "screenshots/step_0013.png"
+    },
+    {
+      "index": 14,
+      "code": "pyautogui.write(\"2\")",
+      "screenshot": "screenshots/step_0014.png"
+    },
+    {
+      "index": 15,
+      "code": "pyautogui.hotkey('ctrl', 'a')",
+      "screenshot": "screenshots/step_0015.png"
+    },
+    {
+      "index": 16,
+      "code": "pyautogui.write(\"whitespace\")",
+      "screenshot": "screenshots/step_0016.png"
+    },
+    {
+      "index": 17,
+      "code": "pyautogui.click(719, 490)",
+      "screenshot": "screenshots/step_0017.png"
+    },
+    {
+      "index": 18,
+      "code": "pyautogui.click(680, 602)",
+      "screenshot": "screenshots/step_0018.png"
+    },
+    {
+      "index": 19,
+      "code": "pyautogui.doubleClick(479, 235)",
+      "screenshot": "screenshots/step_0019.png"
+    },
+    {
+      "index": 20,
+      "code": "pyautogui.write(\"rulers\")",
+      "screenshot": "screenshots/step_0020.png"
+    },
+    {
+      "index": 21,
+      "code": "pyautogui.click(718, 400)",
+      "screenshot": "screenshots/step_0021.png"
+    },
+    {
+      "index": 22,
+      "code": "pyautogui.write(\"80,\")",
+      "screenshot": "screenshots/step_0022.png"
+    },
+    {
+      "index": 23,
+      "code": "pyautogui.press('enter')",
+      "screenshot": "screenshots/step_0023.png"
+    },
+    {
+      "index": 24,
+      "code": "pyautogui.write(\"120\")",
+      "screenshot": "screenshots/step_0024.png"
+    },
+    {
+      "index": 25,
+      "code": "pyautogui.hotkey('ctrl', 's')",
+      "screenshot": "screenshots/step_0025.png"
+    }
+  ]
+}
